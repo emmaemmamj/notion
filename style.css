@@ -23,6 +23,7 @@ body {
 
 #player-container {
   position: absolute;
+  background-color: white;
   top: 50%;
   right: 0;
   left: 0;
