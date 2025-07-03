@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player | Audio Player 🎵</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="player-bg-artwork"></div>
+<div id="player-bg-layer"></div>
+<div id="player-container">
+  <div id="player">
+    <div id="player-track">
+      <div id="album-name"></div>
+      <div id="track-name"></div>
+      <div id="track-time">
+        <div id="current-time"></div>
+        <div id="track-length"></div>
+      </div>
+      <div id="seek-bar-container">
+        <div id="seek-time"></div>
+        <div id="s-hover"></div>
+        <div id="seek-bar"></div>
+      </div>
+    </div>
+    <div id="player-content">
+      <div id="album-art">
+        <img src="https://64.media.tumblr.com/ad86d6050d6cca260ef8565e5d444e15/a9843257cdcaf5a1-52/s1280x1920/a891ab4e778da7e54052acea8a00439822cdf1b2.png" class="active" id="_1" />
+        <img src="https://i.pinimg.com/736x/ef/37/cf/ef37cf9f20a19734a0d78d2e581dccfa.jpg" id="_2" />
+        <img src="https://i.pinimg.com/736x/01/74/c0/0174c026d67ffe8f7854f3a09f01ef23.jpg" id="_3" />
+        <img src="https://i.pinimg.com/736x/0c/cd/f4/0ccdf4f7650040360c0f6657a3577fa5.jpg" id="_4" />
+        <img src="https://i.pinimg.com/736x/1d/b5/a1/1db5a1befa0a1a6e435ff8ddbe7dd0ce.jpg" id="_5" />
+        <div id="buffer-box">Buffering ...</div>
+      </div>
+      <div id="player-controls">
+        <div class="control">
+          <div class="button" id="play-previous">
+            <i class="fas fa-backward"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-pause-button">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-next">
+            <i class="fas fa-forward"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
