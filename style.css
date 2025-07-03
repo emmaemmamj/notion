@@ -32,16 +32,6 @@ body {
   margin: -4px auto;
 }
 
-#player-bg-artwork {
-  position: fixed;
-  top: -30px;
-  right: -30px;
-  bottom: -30px;
-  left: -30px;
-  background-color: #FFFFFF;
-  z-index: 1;
-}
-
 #player-bg-layer {
   position: fixed;
   top: 0;
